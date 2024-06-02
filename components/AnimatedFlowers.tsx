@@ -177,6 +177,7 @@ const AnimatedFlowers = () => {
         <div className="flower__white-circle flower__white-circle--3"></div>
         <div className="flower__white-circle flower__white-circle--4"></div>
       </div>
+      <div className="av-text">AV</div> {/* Add this div for the AV text */}
     </div>
   );
 };

@@ -1000,6 +1000,19 @@ body {
   animation-play-state: paused !important;
 }
 
+.av-text {
+  position: absolute; /* Position the text absolutely within the container */
+  bottom: 20px; /* Adjust the position as needed */
+  right: 20px; /* Adjust the position as needed */
+  font-size: 24px; /* Adjust the font size as needed */
+  font-weight: bold; /* Make the text bold */
+  font-family: "Arial", sans-serif; /* Change the font family if needed */
+  background: linear-gradient(45deg, #ff4b4b, #ffcc00, #ff4b4b); /* Define the gradient */
+  background-size: 200% 200%; /* Set background size */
+  animation: gradientAnimation 4s ease infinite; /* Apply animation */
+  -webkit-background-clip: text; /* Clip text to the background size */
+  -webkit-text-fill-color: transparent; /* Hide the text */
+}
 
 
 @layer utilities {
